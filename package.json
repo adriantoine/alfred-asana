@@ -1,0 +1,42 @@
+{
+  "name": "alfred-asana",
+  "version": "0.1.0",
+  "description": "Asana search for Alfred",
+  "license": "MIT",
+  "repository": "adriantoine/alfred-asana",
+  "author": {
+    "name": "Adrien Antoine",
+    "email": "adriantoine@gmail.com",
+    "url": "adriantoine.com"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "scripts": {
+    "test": "xo && ava",
+    "postinstall": "alfred-link"
+  },
+  "files": [
+    "index.js",
+    "icon.png",
+    "info.plist"
+  ],
+  "keywords": [
+    "alfred",
+    "workflow",
+    ""
+  ],
+  "dependencies": {
+    "alfred-link": "^0.1.0",
+    "alfred-notifier": "^0.1.0",
+    "alfy": "^0.3.0"
+  },
+  "devDependencies": {
+    "alfy-test": "^0.3.0",
+    "ava": "^0.15.2",
+    "xo": "^0.16.0"
+  },
+  "xo": {
+    "esnext": true
+  }
+}
