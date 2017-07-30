@@ -13,7 +13,7 @@
     "node": ">=4"
   },
   "scripts": {
-    "test": "xo && ava",
+    "test": "semistandard",
     "postinstall": "alfred-link"
   },
   "files": [
@@ -24,20 +24,18 @@
   "keywords": [
     "alfred",
     "workflow",
-    ""
+    "asana",
+    "api",
+    "tasks",
+    "projects"
   ],
   "dependencies": {
     "alfred-link": "^0.1.0",
     "alfred-notifier": "^0.1.0",
-    "alfy": "^0.3.0",
+    "alfy": "^0.6.0",
     "lodash.isnil": "^4.0.0"
   },
   "devDependencies": {
-    "alfy-test": "^0.3.0",
-    "ava": "^0.15.2",
-    "xo": "^0.16.0"
-  },
-  "xo": {
-    "esnext": true
+    "semistandard": "^11.0.0"
   }
 }
