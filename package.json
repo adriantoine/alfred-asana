@@ -29,7 +29,8 @@
   "dependencies": {
     "alfred-link": "^0.1.0",
     "alfred-notifier": "^0.1.0",
-    "alfy": "^0.3.0"
+    "alfy": "^0.3.0",
+    "lodash.isnil": "^4.0.0"
   },
   "devDependencies": {
     "alfy-test": "^0.3.0",
