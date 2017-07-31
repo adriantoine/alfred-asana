@@ -1,6 +1,6 @@
 # alfred-asana
 
-> Asana search for Alfred
+> [Asana](asana.com) search for Alfred
 
 ![Asana search for Alfred](http://g.recordit.co/tRv1lXNMbb.gif)
 (powered by [Alfy](https://github.com/sindresorhus/alfy))
